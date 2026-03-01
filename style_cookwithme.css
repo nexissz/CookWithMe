@@ -252,8 +252,9 @@ td {
     }
 
     .img_taboulé {
-      float: none;
+      float: center;
       display: block;
       text-align: center;
     }
 }
+
