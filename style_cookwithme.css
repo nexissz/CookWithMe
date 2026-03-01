@@ -232,10 +232,28 @@ td {
 	border: 1px solid rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 500px) {
-  section {
-    width: 100%;
-  }
-  aside {
-  width: 100%;
+@media (max-width: 768px) {
+    .container_articles {
+      flex-direction: column;
+    }
+
+    nav a {
+      margin-right: 15px;
+      font-size: 12px;
+    }
+
+    header {
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .titre_article1, .titre_article2 {
+      font-size: 26px;
+    }
+
+    .img_taboulé {
+      float: none;
+      display: block;
+      text-align: center;
+    }
 }
